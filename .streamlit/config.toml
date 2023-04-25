@@ -1,2 +1,4 @@
 [theme]
 base="dark"
+primaryColor="#00D7FF"
+font="monospace"
