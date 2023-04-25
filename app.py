@@ -1,4 +1,9 @@
 import streamlit as st
+import streamlit as st
+
+from streamlit_jupyter import StreamlitPatcher, tqdm
+
+StreamlitPatcher().jupyter()  # register streamlit with jupyter-compatible wrappers
 
 
 st.title("湖南省邵阳市第七中学 2201班")
