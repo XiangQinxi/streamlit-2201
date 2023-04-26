@@ -7,7 +7,7 @@ with st.sidebar:
 
     rain(
         emoji="🍭",
-        font_size=45,
+        font_size=32,
         falling_speed=8,
     )
 
@@ -16,12 +16,6 @@ with st.sidebar:
         description="应用程序开始构建",
         color_name="red-70",
     )
-
-rain(
-    emoji="🍭",
-    font_size=45,
-    falling_speed=8,
-)
 
 
 st.balloons()

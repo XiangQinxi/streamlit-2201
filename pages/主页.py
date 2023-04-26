@@ -16,7 +16,7 @@ with st.sidebar:
 
     rain(
         emoji="🍭",
-        font_size=45,
+        font_size=32,
         falling_speed=8,
     )
 
