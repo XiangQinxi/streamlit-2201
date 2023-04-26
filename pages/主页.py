@@ -1,5 +1,7 @@
 import streamlit as st
 from streamlit_extras.let_it_rain import rain
+from streamlit_extras.switch_page_button import switch_page
+from streamlit_extras.customize_running import center_running
 
 st.set_page_config(
     page_title="湖南省邵阳市第七中学 2201班",
@@ -38,3 +40,9 @@ with st.expander("其他", expanded=True):
     st.text("如需要加入其他文档，请联系我并带上文本，我会进行整理上传。")
 
 st.divider()
+
+if st.button("博客 2023.4.25"):
+    center_running()
+    from time import sleep
+    sleep(1)
+    switch_page("博客 2023.4.25")
