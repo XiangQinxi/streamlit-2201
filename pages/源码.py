@@ -30,7 +30,7 @@ st.balloons()
 st.title("源码")
 
 with st.expander("主页.py", expanded=True):
-    st.code(open("主页.py", "r", encoding="utf-8").read())
+    st.code(open("pages/主页.py", "r", encoding="utf-8").read())
 
 with st.expander("博客 2023.4.25.py", expanded=True):
     st.code(open("pages/博客 2023.4.25.py", "r", encoding="utf-8").read())
