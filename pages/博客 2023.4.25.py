@@ -14,7 +14,7 @@ with st.sidebar:
     colored_header(
         label="博客 2023年4月25日",
         description="应用程序开始构建",
-        color_name="red-70",
+        color_name="orange-70",
     )
 
 

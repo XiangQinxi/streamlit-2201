@@ -14,7 +14,7 @@ with st.sidebar:
     colored_header(
         label="湖南省邵阳市第七中学 2201班 源码",
         description="查看此应用程序的源码",
-        color_name="red-70",
+        color_name="blue-70",
     )
 
 
