@@ -1,3 +1,5 @@
+# encoding=utf-8
+
 import streamlit as st
 from streamlit_extras.let_it_rain import rain
 from streamlit_extras.switch_page_button import switch_page
@@ -5,7 +7,7 @@ from streamlit_extras.customize_running import center_running
 
 st.set_page_config(
     page_title="湖南省邵阳市第七中学 2201班",
-    page_icon="🧊",
+    page_icon="🏫",
     layout="wide",
     initial_sidebar_state="expanded",
     menu_items={
